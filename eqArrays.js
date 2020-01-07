@@ -9,6 +9,9 @@ const assertEqual = function(actual, expected) {
 
 const eqArrays = function(actual, expected) {
 
+  if (actual.length === 0 && expected.length === 0){
+    return true;
+  } 
   if (actual.length === expected.length){
     for (let i = 0; i < actual.length; i++){
       if (actual[i] !== expected[i]) {
@@ -20,10 +23,10 @@ const eqArrays = function(actual, expected) {
   } else {
     return false;
   }
-
 };
 
 // TEST CODE
+assertEqual(eqArrays([], []), true);
 assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
 assertEqual(eqArrays([1, 2, 3], [3, 2, 1]), false);
 
