@@ -1,4 +1,4 @@
-const eqArrays = function(actual, expected) {
+const assertArraysEqual = function(actual, expected) {
 
   if (actual.length === expected.length){
     for (let i = 0; i < actual.length; i++){
@@ -14,7 +14,7 @@ const eqArrays = function(actual, expected) {
 
 };
 
-eqArrays([1, 2, 3], [1, 2, 3]);
-eqArrays([1, 2, 3], [1, 2, 4]);
-eqArrays(['1', 2, '3'], ['1', 2, '3']);
-eqArrays(['1', 2, '3'], ['1', '2', '3']);
+assertArraysEqual([1, 2, 3], [1, 2, 3]);
+assertArraysEqual([1, 2, 3], [1, 2, 4]);
+assertArraysEqual(['1', 2, '3'], ['1', 2, '3']);
+assertArraysEqual(['1', 2, '3'], ['1', '2', '3']);
