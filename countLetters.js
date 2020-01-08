@@ -8,11 +8,13 @@ const assertEqual = function(actual, expected) {
 
 const countLetters = function(str) {
   let count = {} //Keys = letter in str : Values = number of times keys appears in string
-  for (element of str) {
-    if (count[element]){
-      count[element] += 1;
-    } else {
-      count[element] = 1;
+  for (element of str) { //Loops through each char of str as if it was an array
+     if (element !== ' '){ //checks if element is a blank space
+      if (count[element]){
+        count[element] += 1;
+      } else {
+        count[element] = 1;
+      }
     }
   }
   return count;
