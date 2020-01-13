@@ -46,6 +46,3 @@ const assertObjectsEqual = function(actual, expected) {
 let a = {a: 1, b: 2, c: [1, 2, 3]};
 let b = {c: [1, 2, 3], b: 2, a: 1};
 let c = {c: [1, 2, 3]};
-assertObjectsEqual(a, b);
-assertObjectsEqual(a, c);
-assertObjectsEqual(b, c);

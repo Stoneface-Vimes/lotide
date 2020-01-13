@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@stoneface-vimes/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A student project, replicates some of the functionality of lodash",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -19,10 +19,17 @@
     "type": "git",
     "url": "git+https://github.com/Stoneface-Vimes/lotide.git"
   },
-  "author": "",
+  "author": "stoneface-vimes",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Stoneface-Vimes/lotide/issues"
   },
+  "contributors": [
+    {"name": "Drpaddle"},
+    {"name": "user-test123"},
+    {"name": "flave19"},
+    {"name": "CassandraLin"}
+  ],
+
   "homepage": "https://github.com/Stoneface-Vimes/lotide#readme"
 }

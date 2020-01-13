@@ -50,7 +50,7 @@ const flatten = function(arr) {
   return result;
 }
 
-assertArraysEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, 6]);
-assertArraysEqual(flatten([1, 2, [3, 4], 5, []]), [1, 2, 3, 4, 5]);
-assertArraysEqual(flatten([1, 'b', [3, 'r'], 5, [true]]), [1, 'b', 3, 'r', 5, true]);
-assertArraysEqual(flatten([1, 2, [undefined, 4], null, [6]]), [1, 2, undefined, 4, null, 6]);
+// assertArraysEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, 6]);
+// assertArraysEqual(flatten([1, 2, [3, 4], 5, []]), [1, 2, 3, 4, 5]);
+// assertArraysEqual(flatten([1, 'b', [3, 'r'], 5, [true]]), [1, 'b', 3, 'r', 5, true]);
+// assertArraysEqual(flatten([1, 2, [undefined, 4], null, [6]]), [1, 2, undefined, 4, null, 6]);

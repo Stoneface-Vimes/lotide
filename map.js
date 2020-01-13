@@ -40,7 +40,7 @@ const map = function(array, callback){
   return results;
 };
 
-const words = ["ground", "control", "to", "major", "tom"];
-assertArraysEqual(map(words, word => word[0]), [ 'g', 'c', 't', 'm', 't' ]);
-assertArraysEqual(map(words, word => word[1]), [ 'g', 'c', 't', 'm', 't' ]);
-assertArraysEqual(map(words, word => word.length), [ 6, 7, 2, 5, 3 ]);
+// const words = ["ground", "control", "to", "major", "tom"];
+// assertArraysEqual(map(words, word => word[0]), [ 'g', 'c', 't', 'm', 't' ]);
+// assertArraysEqual(map(words, word => word[1]), [ 'g', 'c', 't', 'm', 't' ]);
+// assertArraysEqual(map(words, word => word.length), [ 6, 7, 2, 5, 3 ]);

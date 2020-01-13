@@ -55,10 +55,10 @@ without(["hello", "world", "lighthouse"], ["lighthouse"]);
 assertArraysEqual(words, ["hello", "world", "lighthouse"]);
 
 
-assertArraysEqual(without([], []), [1]); //False
-assertArraysEqual(without([1], []), [1]); //True
-assertArraysEqual(without([1, 2], [3]), [1 ,2]); //False
-assertArraysEqual(without([1, 2, 3], [2, 6]), [1, 3]); //True
-assertArraysEqual(without([1, 2, 3, 4, 5], [1]), [2, 3, 4, 5]); //False
-assertArraysEqual(without([1, 2, 3, 4], [2, 3]), [1, 4]); //True
-assertArraysEqual(without([1, 2, 3, 4, 5, 6], [1,4]), [2, 3, 5, 6]); //False
+// assertArraysEqual(without([], []), [1]); //False
+// assertArraysEqual(without([1], []), [1]); //True
+// assertArraysEqual(without([1, 2], [3]), [1 ,2]); //False
+// assertArraysEqual(without([1, 2, 3], [2, 6]), [1, 3]); //True
+// assertArraysEqual(without([1, 2, 3, 4, 5], [1]), [2, 3, 4, 5]); //False
+// assertArraysEqual(without([1, 2, 3, 4], [2, 3]), [1, 4]); //True
+// assertArraysEqual(without([1, 2, 3, 4, 5, 6], [1,4]), [2, 3, 5, 6]); //False

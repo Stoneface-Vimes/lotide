@@ -65,7 +65,7 @@ const testString = 'Lighthouse in the house';
 // e : {'count': 1, 'index': [ 1 ] },
 // l : {'count': 1, 'index': [ 2, 3 ] },
 // o : {'count': 1, 'index': [ 4 ] }
-// })
-assertArraysEqual(letterPostions('hello').e.index, [1]);
-assertArraysEqual(letterPostions('hello').l.index, [2, 3]);
-assertArraysEqual(letterPostions('hello').o.index, [4]);
+// // })
+// assertArraysEqual(letterPostions('hello').e.index, [1]);
+// assertArraysEqual(letterPostions('hello').l.index, [2, 3]);
+// assertArraysEqual(letterPostions('hello').o.index, [4]);
